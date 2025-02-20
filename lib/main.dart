@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  await FlutterDownloader.initialize(debug: true);
   runApp(const MyApp());
 }
 
